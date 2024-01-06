@@ -1,0 +1,8 @@
+@use "../../sass/variables" as *;
+
+.home__products {
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+    grid-gap: 16px; /* Espaçamento entre as colunas (opcional) */
+  }

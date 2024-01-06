@@ -1,0 +1,30 @@
+@use "../../sass/variables" as *;
+
+.home__card{
+    border: 1px solid $border-background-card;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    margin: 10px;
+    width: fit-content;
+    font-size: 14px;
+    text-align: center;
+    img{
+        border-radius: 7px 7px 0px 0px;
+        margin-bottom: 20px
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        margin-right: 10px;
+        border: none;
+        background-color: $contrast-color;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    a{
+        text-decoration: none !important;
+        color: $white !important;
+    }
+}
